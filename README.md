@@ -15,7 +15,7 @@ Cada archivo mantiene la misma estructura base de **10 columnas**, lo que permit
 | `url` | URLs detectadas dentro del correo. |
 | `cta_text` | Texto asociado al llamado a la acción (si existe). |
 | `url_count` | Número de URLs detectadas en el cuerpo. |
-| `etiqueta` | Clase original del correo (phishing = 1/ legit = 0). |
+| `label` | Clase original del correo (phishing = 1/ legit = 0). |
 
 Durante el procesamiento en Colab se añadio una columna adicional:
 
@@ -39,8 +39,9 @@ Los siguientes archivos fueron empleados antes de la unificación:
 | `Lazaro_dataset_legit.csv` | Legit | 209 | Correos legítimos en español curado manualmente. |
 | `Lazaro_dataset_phishing.csv` | Phishing | 211 | Correos phishing en español curado manualmente. |
 | `Michelin_phishing_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
+| `ds_frida_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
 
-**Total combinado:** 7,628 correos  
-- **Phishing:** 3,931  
-- **Legit:** 3,697  
-→ Distribución balanceada (~51.5% phishing, ~48.5% legit) 1.06 : 1
+**Total combinado:** 7,640 correos  
+- **Phishing:** 3,943
+- **Legit:** 3,697
+→ Distribución balanceada (~51.5% phishing, ~48.5% legit) 1.06 : 1 (checar distribución final)
