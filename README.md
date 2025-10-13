@@ -38,12 +38,12 @@ Los siguientes archivos fueron empleados antes de la unificación:
 | `Darito_traditional_phishing.csv` | Phishing | 3332 | Phishing tradicional con plantillas reales. |
 | `Lazaro_dataset_legit.csv` | Legit | 209 | Correos legítimos en español curado manualmente. |
 | `Lazaro_dataset_phishing.csv` | Phishing | 211 | Correos phishing en español curado manualmente. |
-| `ds_huggingface_phishing.csv` | Phishing |  | Correos phishing en español. |
-| `ds_huggingface_legit.csv` | Legit |  | Correos phishing en español. |
+| `ds_huggingface_legit.csv` | Legit | 586 | Correos phishing en español. |
+| `ds_huggingface_phishing.csv` | Phishing | 621 | Correos phishing en español. |
 | `Michelin_phishing_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
 | `ds_frida_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
 
-**Total combinado:** 7,640 correos  
-- **Phishing:** 3,943
-- **Legit:** 3,697
+**Total combinado:** 8,847 correos  
+- **Phishing:** 4,564
+- **Legit:** 4,283
 → Distribución balanceada (~51.5% phishing, ~48.5% legit) 1.06 : 1 (checar distribución final)
