@@ -42,8 +42,10 @@ Los siguientes archivos fueron empleados antes de la unificación:
 | `ds_huggingface_phishing.csv` | Phishing | 621 | Correos phishing en español. |
 | `Michelin_phishing_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
 | `ds_frida_email.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
+| `ds_jesse.csv` | Phishing | 12 | Correos transcritos de phishing en español nativos |
 
-**Total combinado:** 8,847 correos  
-- **Phishing:** 4,564
+
+**Total combinado:** 8,859 correos  
+- **Phishing:** 4,576
 - **Legit:** 4,283
 → Distribución balanceada (~51.5% phishing, ~48.5% legit) 1.06 : 1 (checar distribución final)
